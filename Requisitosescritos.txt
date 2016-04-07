@@ -1,0 +1,5 @@
+﻿* Quando o sistema ser executado o sistema deve exibir um menu em que o usuário possa selecionar qual tipo de equação seja calculada
+* Ao selecionar a opção de calcular equação de primeiro grau o sistema deverá permitir que o usuário entre com dois valores(a, b subsequente separados por espaços)
+* Ao selecionar a opção de calcular equação de segundo grau o sistema deverá permitir que o usuário entre com três valores(a, b, c subsequente separados por espaços)
+* Ao calcular as raízes da equação o sistema deve exibir os resultados
+* Caso não houver resultados o sistema deve exibir que não há soluções para a equação de segundo grau
