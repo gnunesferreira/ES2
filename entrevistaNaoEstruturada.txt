@@ -1,0 +1,7 @@
+﻿O que que eu queria mesmo?
+
+
+Gostaria de um sistema que calculasse raízes de equação de segundo grau.
+Primeiramente eu gostaria que o sistema, ao entrar com os dados de a,b,c ele me retornar as raízes da equação
+/*requisito oculto: exibir se não existe */
+Em uma tela de terminal simples, onde ao executar o programa, e entre com os valores de abc separados por espaço desejo obter as respostas da equação, pois usarei pra estudar pra prova e quero uma forma rápida de saber os resultados.
