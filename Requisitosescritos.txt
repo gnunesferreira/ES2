@@ -1,5 +1,12 @@
-﻿* Quando o sistema ser executado o sistema deve exibir um menu em que o usuário possa selecionar qual tipo de equação seja calculada
-* Ao selecionar a opção de calcular equação de primeiro grau o sistema deverá permitir que o usuário entre com dois valores(a, b subsequente separados por espaços)
-* Ao selecionar a opção de calcular equação de segundo grau o sistema deverá permitir que o usuário entre com três valores(a, b, c subsequente separados por espaços)
-* Ao calcular as raízes da equação o sistema deve exibir os resultados
-* Caso não houver resultados o sistema deve exibir que não há soluções para a equação de segundo grau
+- Quando o sistema ser executado o sistema deve exibir um menu em que o usuário possa selecionar qual tipo de equação seja calculada(1• grau ou 2• grau)
+- Ao selecionar a opção de calcular equação de primeiro grau o sistema deverá permitir que o usuário entre com dois valores(a, b em sequencia e separados por espaços)
+- Ao selecionar a opção de calcular equação de segundo grau o sistema deverá permitir que o usuário entre com três valores(a, b, c em sequencia e separados por espaços)
+- Ao calcular as raízes da equação o sistema deve exibir os resultados, assim como a equação montada (axˆ2 + bx + c = 0 ou ax + b = 0)
+- Ao ser inserido as equações o sistema deve calcular as raízes obedecendo as seguintes regras:
+	1• grau: x = (-b/a)
+	2• grau: x = (-b ± raiz(b^2 - 4ac))/2a
+- Caso não houver resultados para equação de segundo grau o sistema deve exibir que não há soluções para a equação(“Não há raízes no conjunto dos reais”)
+- Caso houver somente uma raiz para a equação de segundo grau, o sistema deve deixar claro que só foi possível encontrar uma das raízes
+- Após concluído o cálculo o resultado deve permanecer na tela, junto com a equação, de modo a facilitar consulta, junto com uma opção de calcular outra raiz
+- Exibir sempre o menu após selecionar a opção de calcular outra raíz
+- O sistema deve ser desenvolvido em C++ para que seja possível cliente adaptar futuras necessidades com o prévio conhecimento que ele já tem sobre a linguagem de desenvolvimento
