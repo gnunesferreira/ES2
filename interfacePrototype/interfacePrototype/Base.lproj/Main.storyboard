@@ -61,6 +61,25 @@
                                     </mask>
                                 </variation>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="!E aos R" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.65000000000000002" translatesAutoresizingMaskIntoConstraints="NO" id="sQh-td-qWQ">
+                                <rect key="frame" x="-42" y="-21" width="42" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="76" id="tCj-Tu-wpg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Helvetica-Light" family="Helvetica" pointSize="50"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="tCj-Tu-wpg"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="tCj-Tu-wpg"/>
+                                    </mask>
+                                </variation>
+                            </label>
                             <view alpha="0.94999999999999996" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="iSp-V2-vb1">
                                 <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
                                 <subviews>
@@ -1766,6 +1785,8 @@
                         <constraints>
                             <constraint firstItem="Mee-CB-9QV" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" id="3y3-ug-eeI"/>
                             <constraint firstAttribute="trailingMargin" secondItem="z0G-53-RZe" secondAttribute="trailing" id="5zm-c7-8j3"/>
+                            <constraint firstItem="sQh-td-qWQ" firstAttribute="top" secondItem="Mee-CB-9QV" secondAttribute="bottom" id="84m-Wu-asr"/>
+                            <constraint firstItem="sQh-td-qWQ" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="AyK-Xa-xzC"/>
                             <constraint firstItem="iSp-V2-vb1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="MqT-sq-vi5"/>
                             <constraint firstAttribute="trailing" secondItem="Mee-CB-9QV" secondAttribute="trailing" id="TDA-TO-TMn"/>
                             <constraint firstItem="z0G-53-RZe" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="V9z-s0-yoh"/>
@@ -1776,6 +1797,7 @@
                             <constraint firstItem="iSp-V2-vb1" firstAttribute="top" secondItem="Mee-CB-9QV" secondAttribute="bottom" id="hmk-wj-NXN"/>
                             <constraint firstAttribute="trailingMargin" secondItem="iSp-V2-vb1" secondAttribute="trailing" id="jD3-zc-lXW"/>
                             <constraint firstAttribute="trailingMargin" secondItem="Mee-CB-9QV" secondAttribute="trailing" id="kgC-S4-n0U"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="sQh-td-qWQ" secondAttribute="trailing" id="mjf-h8-9Pj"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="iSp-V2-vb1" secondAttribute="bottom" id="uCC-yC-Jtt"/>
                             <constraint firstItem="iSp-V2-vb1" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" id="yTy-kr-8c2"/>
                         </constraints>
@@ -1783,6 +1805,7 @@
                             <mask key="subviews">
                                 <exclude reference="Mee-CB-9QV"/>
                                 <exclude reference="z0G-53-RZe"/>
+                                <exclude reference="sQh-td-qWQ"/>
                                 <exclude reference="iSp-V2-vb1"/>
                             </mask>
                             <mask key="constraints">
@@ -1791,21 +1814,25 @@
                                 <exclude reference="VQd-Wf-RAX"/>
                                 <exclude reference="dCe-H1-15w"/>
                                 <exclude reference="kgC-S4-n0U"/>
+                                <exclude reference="5zm-c7-8j3"/>
+                                <exclude reference="V9z-s0-yoh"/>
+                                <exclude reference="dhx-V5-Bwc"/>
                                 <exclude reference="MqT-sq-vi5"/>
                                 <exclude reference="cal-n9-gdL"/>
                                 <exclude reference="hmk-wj-NXN"/>
                                 <exclude reference="jD3-zc-lXW"/>
                                 <exclude reference="yTy-kr-8c2"/>
-                                <exclude reference="5zm-c7-8j3"/>
-                                <exclude reference="V9z-s0-yoh"/>
-                                <exclude reference="dhx-V5-Bwc"/>
+                                <exclude reference="84m-Wu-asr"/>
+                                <exclude reference="AyK-Xa-xzC"/>
+                                <exclude reference="mjf-h8-9Pj"/>
                                 <exclude reference="uCC-yC-Jtt"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="Mee-CB-9QV"/>
-                                <include reference="z0G-53-RZe"/>
+                                <exclude reference="z0G-53-RZe"/>
+                                <include reference="sQh-td-qWQ"/>
                                 <include reference="iSp-V2-vb1"/>
                             </mask>
                             <mask key="constraints">
@@ -1814,14 +1841,17 @@
                                 <include reference="VQd-Wf-RAX"/>
                                 <exclude reference="dCe-H1-15w"/>
                                 <include reference="kgC-S4-n0U"/>
+                                <include reference="5zm-c7-8j3"/>
+                                <include reference="V9z-s0-yoh"/>
+                                <include reference="dhx-V5-Bwc"/>
                                 <include reference="MqT-sq-vi5"/>
                                 <include reference="cal-n9-gdL"/>
                                 <exclude reference="hmk-wj-NXN"/>
                                 <exclude reference="jD3-zc-lXW"/>
                                 <exclude reference="yTy-kr-8c2"/>
-                                <include reference="5zm-c7-8j3"/>
-                                <include reference="V9z-s0-yoh"/>
-                                <include reference="dhx-V5-Bwc"/>
+                                <include reference="84m-Wu-asr"/>
+                                <include reference="AyK-Xa-xzC"/>
+                                <include reference="mjf-h8-9Pj"/>
                                 <include reference="uCC-yC-Jtt"/>
                             </mask>
                         </variation>
