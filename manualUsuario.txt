@@ -1,0 +1,4 @@
+	Ao abrir o sistema, ele já inicia com a interface principal aberta, de modo a facilitar o uso
+	Para calcular as raízes de equação de primeiro grau, pressione o botão A e insira o valor de A, para inserir os valores de B e C basta realizar o mesmo procedimento
+	Após realizar o passo anterior as raízes da equação serão exibidas logo em baixo da equação inicial
+	Para calcular as raízes de equação de primeiro grau basta inserir somente os valores de B e C 
