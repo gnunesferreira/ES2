@@ -1,0 +1,7 @@
+Atividade a serem desenvolvidas durante outras atividades: para montar o cronograma inclusive:
+
+- Gestão de configuração que deve tomar todo o tempo de atividade do projeto
+- Elicitar requisitos, entrevista não estruturada
+- Casos de uso textuais
+- Diagrama de casos de uso
+- Documento de especificação
