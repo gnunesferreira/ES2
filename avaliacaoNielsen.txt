@@ -1,0 +1,29 @@
+1) O sistema mostra o que está acontecendo
+	Sim, o sistema deixa claro em que momento as coisas estão acontecendo, o momento em que as informações estão sendo processadas, e qual tipo de equação estou calculando
+
+2) Relacionamento entre interface e o mundo real
+	O sistema trás uma calculadora muito parecida com a que tenho no dia-a-dia, tendo como diferencial a facilidade de uso, diferente de outros sistemas do gênero
+
+3) Liberdade e controle do usuário
+	O usuário consegue se sentir no controle total de todas as suas ações, sendo possível mudar a equação a qualquer momento, sem que se faça necessário usar telas e alertas de confirmação que são de certa forma incômodos
+
+4) Consistência
+	O sistema em si é consistente visto que os botões de operação são laranjas, os numéricos são branco, e os de inserção de valores para cada elemento da equação tem um tom acinzentado
+
+5) Prevenção de erros
+	O sistema é capaz de me alertar quando não é possível calcular a equação solicitada dentro do conjunto dos números reais
+
+6) Reconhecimento ao invés de lembrança
+	O sistema por ter uma interface simplista, muito próximo de uma calculadora real, faz com que haja uma analogia entre o sistema e uma calculadora física. Tornando possível o reconhecimento e que não se faça necessário um esforço cognitivo alto
+
+7) Flexibilidade e eficiência de uso
+	O uso é eficiente pois no momento em que se faz necessário calcular raízes de uma equação o sistema já exibe a calculadora, sem que se faça necessário passar por caminhos específicos e então finalmente chegar a calculadora.
+
+8) Estética e design minimalista
+	O sistema em geral tem design agradável e fácil de entender
+
+9) Ajudar o usuário a reconhecer diagnosticar e sanar erros
+	É possível checar os erros através do label logo a baixo da equação.
+
+10) Ajuda e documentação
+	Como o sistema é uma calculadora o seu uso se faz intuitivo, no entanto há um manual de usuário que indica os passos para calcular as raízes de uma equação
